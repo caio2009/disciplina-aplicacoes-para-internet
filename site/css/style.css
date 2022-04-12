@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  /*position: fixed;
+  top: 49px; 
+  background: orange;*/
+  width: 100%;
+  /*height: calc(100vh - 49px);
+  overflow-y: scroll;*/
+  box-sizing: border-box;
+}
+
+main section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+nav {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+#menu {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  background-color: #0008;
+}
+
+/*#menu li {
+  padding: 16px;
+}*/
+
+#menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+  font-size: 12px;
+}
+
+#menu li:hover {
+  background-color: #0003;
+  cursor: pointer;
+}
+
+#banner {
+  background-image: url("../images/4.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner {
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 0 0 2em #000;
+}
+
+#about {
+  background-color: #035f55;
+}
+
+#about h1, p {
+  color: #fff;
+}
+
+#about p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+#gallery {
+  background-color: #adf786;
+}
+
+.images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images-container img {
+  width: 30%;
+  margin: 1em;
+  border-radius: 16px;
+}
+
+#maps {
+  padding: 0;
+}
+
+#contact {
+  /*background-color: #434af6;
+  color: #fff;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact form label {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+#contact form label input, 
+#contact form label textarea {
+  margin-top: .5em;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #068f43;
+  background-color: #eee; 
+  outline: none;
+}
+
+.button {
+  padding: 8px 32px;
+  background-color: #068f43;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.button:hover {
+  border-color: black;
+}
