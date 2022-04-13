@@ -40,7 +40,7 @@ h1.destaque1 {
   font-weight: bolder !important;
   animation: zoomIn /* bounce */;
   animation-duration: 2s;
-
+  animation-iteration-count: infinite;
 }
 
 h2.destaque2 {
