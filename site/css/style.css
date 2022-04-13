@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +13,7 @@ main {
   /*height: calc(100vh - 49px);
   overflow-y: scroll;*/
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 main section {
@@ -29,7 +32,26 @@ nav:hover {
   opacity: 1;
 }
 
+
+h1.destaque1 {
+  text-align: center;
+  font-size: 2.0em;
+  /* padding-top: 300px; */
+  font-weight: bolder !important;
+  animation: zoomIn /* bounce */;
+  animation-duration: 2s;
+
+}
+
+h2.destaque2 {
+  text-align: center;
+  font-size: 1.5em;
+  animation: zoomInUp /* bounce */;
+  animation-duration: 2s;
+}
+
 h1 {
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -74,7 +96,9 @@ h1 {
 }
 
 #about {
-  background-color: #035f55;
+  /* background-color: #035f55; */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 #about h1, p {
